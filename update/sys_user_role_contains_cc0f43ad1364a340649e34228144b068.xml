@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_snc_cx_workshop.user" name="x_snc_cx_workshop.user">4efd836d1364a340649e34228144b0bb</contains>
+        <role display_value="x_snc_cx_workshop.admin" name="x_snc_cx_workshop.admin">721e076d1364a340649e34228144b082</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>sam.dieck</sys_created_by>
+        <sys_created_on>2018-09-14 22:02:50</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>cc0f43ad1364a340649e34228144b068</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_cx_workshop.user.x_snc_cx_workshop.admin</sys_name>
+        <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
+        <sys_update_name>sys_user_role_contains_cc0f43ad1364a340649e34228144b068</sys_update_name>
+        <sys_updated_by>sam.dieck</sys_updated_by>
+        <sys_updated_on>2018-09-14 22:02:50</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
