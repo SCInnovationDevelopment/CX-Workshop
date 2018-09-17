@@ -15,7 +15,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Onsite Start Date</column_label>
+        <column_label>Onsite start date</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -56,15 +56,15 @@
         <sys_created_on>2018-09-14 22:36:09</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>33959fe113a4a340649e34228144b0db</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Onsite Start Date</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Onsite start date</sys_name>
         <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
         <sys_update_name>sys_dictionary_x_snc_cx_workshop_customer_workshop_onsite_start_date</sys_update_name>
         <sys_updated_by>sam.dieck</sys_updated_by>
-        <sys_updated_on>2018-09-14 22:36:09</sys_updated_on>
+        <sys_updated_on>2018-09-17 20:53:13</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -8,10 +8,10 @@
             <choice/>
         </element>
         <element label="3 things that don't work well" max_length="1000" name="doesnt_work_well" type="string"/>
-        <element label="Name" max_length="500" name="name" type="string"/>
+        <element label="Name" max_length="200" name="name" type="string"/>
         <element label="Notes" max_length="2000" name="notes" type="string"/>
         <element label="Number of systems used" max_length="40" name="number_of_systems_used" type="integer"/>
-        <element label="Previous Role" max_length="200" name="previous_role" type="string"/>
+        <element label="Previous role" max_length="200" name="previous_role" type="string"/>
         <element choice="1" label="Role training length" max_length="40" name="role_training_length" type="choice">
             <choice/>
         </element>

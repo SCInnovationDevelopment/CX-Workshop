@@ -2,20 +2,20 @@
 <database>
     <element label="Customer Experience Workshop" max_length="40" name="x_snc_cx_workshop_customer_workshop" type="collection">
         <element label="Account" max_length="32" name="account" reference="sales_account" type="reference"/>
-        <element label="CE Sponsor Name" max_length="200" name="ce_sponsor_name" type="string"/>
-        <element label="CE Sponsor Title" max_length="200" name="ce_sponsor_title" type="string"/>
+        <element label="CE sponsor name" max_length="200" name="ce_sponsor_name" type="string"/>
+        <element label="CE sponsor title" max_length="200" name="ce_sponsor_title" type="string"/>
         <element label="Name" max_length="200" name="name" type="string"/>
-        <element label="Onsite End Date" max_length="40" name="onsite_end_date" type="glide_date"/>
-        <element label="Onsite Start Date" max_length="40" name="onsite_start_date" type="glide_date"/>
+        <element label="Onsite end date" max_length="40" name="onsite_end_date" type="glide_date"/>
+        <element label="Onsite start date" max_length="40" name="onsite_start_date" type="glide_date"/>
         <element label="Opportunity" max_length="32" name="opportunity" reference="sales_opportunity" type="reference"/>
         <element label="PLSC" max_length="32" name="plsc" reference="sys_user" type="reference"/>
         <element label="PLSM" max_length="32" name="plsm" reference="sys_user" type="reference"/>
-        <element label="Readback Date" max_length="40" name="readback_date" type="glide_date"/>
+        <element label="Readback date" max_length="40" name="readback_date" type="glide_date"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
             <choice/>
         </element>
         <element label="Team" max_length="32" name="team" reference="x_snc_cx_workshop_team" type="reference"/>
-        <element label="Workshop Lead" max_length="32" name="workshop_lead" reference="sys_user" type="reference"/>
+        <element label="Workshop lead" max_length="32" name="workshop_lead" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="plsm"/>
         </index>
