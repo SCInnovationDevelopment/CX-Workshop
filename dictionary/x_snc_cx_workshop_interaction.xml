@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Interaction" max_length="40" name="x_snc_cx_workshop_interaction" type="collection">
+        <element label="Actor" max_length="32" name="actor" reference="x_snc_cx_workshop_actor" type="reference"/>
+        <element label="Call resolved" max_length="40" name="call_resolved" type="boolean"/>
+        <element label="Call transferred" max_length="40" name="call_transferred" type="boolean"/>
+        <element label="Case transferred" max_length="40" name="case_transferred" type="boolean"/>
+        <element choice="1" label="Customer effort" max_length="40" name="customer_effort" type="choice">
+            <choice/>
+        </element>
+        <element choice="1" label="Customer happiness" max_length="40" name="customer_happiness" type="choice">
+            <choice/>
+        </element>
+        <element label="Customer tried resolving" max_length="40" name="customer_tried_resolving" type="boolean"/>
+        <element label="Notes" max_length="2000" name="notes" type="string"/>
+        <element label="Reason for call" max_length="200" name="reason_for_call" type="string"/>
+        <element label="Self-service opportunity" max_length="40" name="self_service_opportunity" type="boolean"/>
+        <element label="Start time" max_length="40" name="start_time" type="glide_date_time"/>
+        <element label="Stop time" max_length="40" name="stop_time" type="glide_date_time"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="actor"/>
+        </index>
+    </element>
+</database>

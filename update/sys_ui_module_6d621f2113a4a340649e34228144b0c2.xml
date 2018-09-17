@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <application display_value="Customer Experience Workshop">1c2fc3ad1364a340649e34228144b08e</application>
+        <filter/>
+        <name>Questions</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_snc_cx_workshop.user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>sam.dieck</sys_created_by>
+        <sys_created_on>2018-09-14 22:17:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6d621f2113a4a340649e34228144b0c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Questions</sys_name>
+        <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
+        <sys_update_name>sys_ui_module_6d621f2113a4a340649e34228144b0c2</sys_update_name>
+        <sys_updated_by>sam.dieck</sys_updated_by>
+        <sys_updated_on>2018-09-14 22:17:41</sys_updated_on>
+        <table>x_snc_cx_workshop_question</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

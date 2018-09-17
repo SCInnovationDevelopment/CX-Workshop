@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="technology_infrastructure" label="Technology infrastructure" language="en" table="x_snc_cx_workshop_wrap_up">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>technology_infrastructure</element>
+            <help/>
+            <hint/>
+            <label>Technology infrastructure</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_wrap_up</name>
+            <plural>Technology infrastructures</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-17 19:09:43</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d52402e61368a740649e34228144b0b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Technology infrastructure</sys_name>
+            <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_cx_workshop_wrap_up_technology_infrastructure_en</sys_update_name>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-17 19:09:43</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -8,7 +8,7 @@
         <hint/>
         <name>Customer Experience Workshop</name>
         <order>100</order>
-        <roles>x_snc_cx_workshop.customer_experience_workshop_user</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>sam.dieck</sys_created_by>
         <sys_created_on>2018-09-14 22:03:23</sys_created_on>

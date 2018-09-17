@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Team" max_length="40" name="x_snc_cx_workshop_team" type="collection">
+        <element label="Business KPI's" max_length="40" name="business_kpi_s" type="boolean"/>
+        <element label="Call Metrics" max_length="40" name="call_metrics" type="boolean"/>
+        <element label="Hard Copies" max_length="40" name="hard_copies" type="boolean"/>
+        <element label="Leaderboards" max_length="40" name="leaderboards" type="boolean"/>
+        <element label="Name" max_length="200" name="name" type="string"/>
+        <element label="Positive Energy" max_length="40" name="positive_energy" type="boolean"/>
+        <element label="Service Levels" max_length="40" name="service_levels" type="boolean"/>
+        <element label="Systems" max_length="40" name="systems" type="boolean"/>
+        <element label="Team Lead Readily Available" max_length="40" name="team_lead_available" type="boolean"/>
+        <element label="Workshop" max_length="32" name="workshop" reference="x_snc_cx_workshop_customer_workshop" type="reference"/>
+        <index name="index">
+            <element name="workshop"/>
+        </index>
+    </element>
+</database>
