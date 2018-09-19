@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="customer_service_strategy" table="x_snc_cx_workshop_wrap_up" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_service_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>1</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_wrap_up</name>
+            <sequence>1</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 19:10:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>79ed4f3613602b40649e34228144b0d7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 19:10:30</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_service_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>2</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_wrap_up</name>
+            <sequence>2</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 19:10:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>afed8f3613602b40649e34228144b044</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 19:10:39</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_service_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>3</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_wrap_up</name>
+            <sequence>3</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 19:10:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e5fd8f3613602b40649e34228144b074</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 19:10:45</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_service_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>4</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_wrap_up</name>
+            <sequence>4</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 19:10:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>c3fd8f3613602b40649e34228144b0db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 19:10:51</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>customer_service_strategy</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>5</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_wrap_up</name>
+            <sequence>5</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 19:10:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>e40e8f3613602b40649e34228144b0de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 19:10:58</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>customer_service_strategy</element>
+            <name>x_snc_cx_workshop_wrap_up</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 19:10:30</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7aed4f3613602b40649e34228144b0fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>customer_service_strategy</sys_name>
+            <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
+            <sys_update_name>sys_choice_x_snc_cx_workshop_wrap_up_customer_service_strategy</sys_update_name>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 19:10:30</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

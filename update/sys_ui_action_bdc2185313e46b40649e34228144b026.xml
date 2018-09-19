@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition/>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>New Interaction</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var interaction = new GlideRecord('x_snc_cx_workshop_interaction');
+interaction.initialize();
+interaction.actor = current.sys_id;
+interaction.start_time = new GlideDateTime();
+var record = interaction.insert();
+
+action.setRedirectURL('/x_snc_cx_workshop_interaction.do?sys_id=' + record);]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>sam.dieck</sys_created_by>
+        <sys_created_on>2018-09-19 18:52:39</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>bdc2185313e46b40649e34228144b026</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>New Interaction</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
+        <sys_update_name>sys_ui_action_bdc2185313e46b40649e34228144b026</sys_update_name>
+        <sys_updated_by>sam.dieck</sys_updated_by>
+        <sys_updated_on>2018-09-19 21:41:56</sys_updated_on>
+        <table>x_snc_cx_workshop_actor</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+</record_update>

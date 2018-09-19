@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="role_training_length" table="x_snc_cx_workshop_actor" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_training_length</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Less than a week</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_actor</name>
+            <sequence>0</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-19 18:25:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>3f2d009b13a46b40649e34228144b0af</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-19 20:21:16</sys_updated_on>
+            <value>Less than a week</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_training_length</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Less than a week</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_actor</name>
+            <sequence>1</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-19 18:25:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>be3d409b13a46b40649e34228144b0e4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-19 20:21:15</sys_updated_on>
+            <value>Less than a week</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_training_length</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Two weeks</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_actor</name>
+            <sequence>1</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-19 18:26:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>a54dc09b13a46b40649e34228144b091</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-19 20:21:16</sys_updated_on>
+            <value>Two weeks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_training_length</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Three weeks</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_actor</name>
+            <sequence>2</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-19 18:26:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>d65d409b13a46b40649e34228144b0e1</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-19 20:21:16</sys_updated_on>
+            <value>Three weeks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_training_length</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>One month</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_actor</name>
+            <sequence>3</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-19 18:26:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>bd6d089b13a46b40649e34228144b067</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-19 20:21:16</sys_updated_on>
+            <value>One month</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role_training_length</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>More than one month</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_actor</name>
+            <sequence>4</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-19 18:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>5d7d089b13a46b40649e34228144b04f</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-19 20:21:16</sys_updated_on>
+            <value>More than one month</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>role_training_length</element>
+            <name>x_snc_cx_workshop_actor</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-19 18:25:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>8a3d8c5b13a46b40649e34228144b070</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>role_training_length</sys_name>
+            <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
+            <sys_update_name>sys_choice_x_snc_cx_workshop_actor_role_training_length</sys_update_name>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-19 18:25:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

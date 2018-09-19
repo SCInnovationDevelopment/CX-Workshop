@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_snc_cx_workshop_customer_workshop" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Draft</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_customer_workshop</name>
+            <sequence>0</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 20:02:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>8a6993b213a02b40649e34228144b088</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 20:02:21</sys_updated_on>
+            <value>Draft</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Planning</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_customer_workshop</name>
+            <sequence>1</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 20:02:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>4bc9d7b213a02b40649e34228144b00e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 20:02:31</sys_updated_on>
+            <value>Planning</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_customer_workshop</name>
+            <sequence>2</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 20:03:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>7ed9d7b213a02b40649e34228144b039</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 20:03:04</sys_updated_on>
+            <value>In Progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complete</label>
+            <language>en</language>
+            <name>x_snc_cx_workshop_customer_workshop</name>
+            <sequence>3</sequence>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 20:03:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>1af9d7b213a02b40649e34228144b0b8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 20:03:21</sys_updated_on>
+            <value>Complete</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_snc_cx_workshop_customer_workshop</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-18 20:02:21</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>56c993b213a02b40649e34228144b08d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
+            <sys_update_name>sys_choice_x_snc_cx_workshop_customer_workshop_state</sys_update_name>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-18 20:02:21</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

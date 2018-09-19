@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>opportunity</field>
+        <global>true</global>
+        <messages/>
+        <name>Get Assiged To and Owner</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+   var opp = g_form.getReference('opportunity', callBack);
+	
+
+	function callBack(opp){
+		g_form.setValue('plsc', opp.solution_consultant);
+		g_form.setValue('plsm', opp.owner);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sam.dieck</sys_created_by>
+        <sys_created_on>2018-09-19 17:32:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>38d0c45f13646b40649e34228144b0e1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Assiged To and Owner</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
+        <sys_update_name>sys_script_client_38d0c45f13646b40649e34228144b0e1</sys_update_name>
+        <sys_updated_by>sam.dieck</sys_updated_by>
+        <sys_updated_on>2018-09-19 17:35:03</sys_updated_on>
+        <table>x_snc_cx_workshop_customer_workshop</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

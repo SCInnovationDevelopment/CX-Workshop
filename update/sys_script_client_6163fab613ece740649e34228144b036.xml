@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>agent_desktop_search</field>
+        <global>true</global>
+        <messages/>
+        <name>Hide All Fields onLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	//Type appropriate comment here, and begin script below
+	
+	g_form.setDisplay('team', false);
+	g_form.setDisplay('customer_service_strategy', false);
+	g_form.setDisplay('duplication_of_data', false);
+	g_form.setDisplay('case_management_process', false);
+	g_form.setDisplay('omni_channel', false);
+	g_form.setDisplay('customer_service', false);
+	g_form.setDisplay('agent_desktop_search', false);
+	g_form.setDisplay('technology_infrastructure', false);
+	g_form.setDisplay('customer_service_organization', false);
+	g_form.setDisplay('interaction', false);
+	g_form.setDisplay('kb_created', false);
+	g_form.setDisplay('cti_available', false);
+	g_form.setDisplay('call_scripting_used', false);
+	g_form.setDisplay('chat_co_browse_used', false);
+	g_form.setDisplay('collaboration_tool_used', false);
+	g_form.setDisplay('information_readily_available', false);
+	g_form.setDisplay('kb_used', false);
+	g_form.setDisplay('manual_call_verification', false);
+	g_form.setDisplay('manual_email', false);
+	g_form.setDisplay('manual_email_internal', false);
+	g_form.setDisplay('missing_information', false);
+	g_form.setDisplay('paper_documents_used', false);
+	g_form.setDisplay('paper_notepad_used', false);
+	g_form.setDisplay('sla_required', false);
+	g_form.setDisplay('sla_tracked', false);
+	g_form.setDisplay('system_integration_used', false);
+	g_form.setDisplay('tribal_knowledge_used', false);
+	g_form.setDisplay('up_cross_sell', false);
+	
+	if(g_form.getValue('type') == 'Interaction'){
+		g_form.setDisplay('interaction', true);
+		g_form.setDisplay('kb_created', true);
+		g_form.setDisplay('cti_available', true);
+		g_form.setDisplay('call_scripting_used', true);
+		g_form.setDisplay('chat_co_browse_used', true);
+		g_form.setDisplay('collaboration_tool_used', true);
+		g_form.setDisplay('information_readily_available', true);
+		g_form.setDisplay('kb_used', true);
+		g_form.setDisplay('manual_call_verification', true);
+		g_form.setDisplay('manual_email', true);
+		g_form.setDisplay('manual_email_internal', true);
+		g_form.setDisplay('missing_information', true);
+		g_form.setDisplay('paper_documents_used', true);
+		g_form.setDisplay('paper_notepad_used', true);
+		g_form.setDisplay('sla_required', true);
+		g_form.setDisplay('sla_tracked', true);
+		g_form.setDisplay('system_integration_used', true);
+		g_form.setDisplay('tribal_knowledge_used', true);
+		g_form.setDisplay('up_cross_sell', true);
+	}
+	else if(g_form.getValue('type') == 'Team'){
+		g_form.setDisplay('customer_service_strategy', true);
+		g_form.setDisplay('case_management_process', true);
+		g_form.setDisplay('omni_channel', true);
+		g_form.setDisplay('customer_service', true);
+		g_form.setDisplay('agent_desktop_search', true);
+		g_form.setDisplay('technology_infrastructure', true);
+		g_form.setDisplay('customer_service_organization', true);
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sam.dieck</sys_created_by>
+        <sys_created_on>2018-09-18 17:40:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_id>6163fab613ece740649e34228144b036</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Hide All Fields onLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
+        <sys_update_name>sys_script_client_6163fab613ece740649e34228144b036</sys_update_name>
+        <sys_updated_by>sam.dieck</sys_updated_by>
+        <sys_updated_on>2018-09-18 18:54:21</sys_updated_on>
+        <table>x_snc_cx_workshop_wrap_up</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

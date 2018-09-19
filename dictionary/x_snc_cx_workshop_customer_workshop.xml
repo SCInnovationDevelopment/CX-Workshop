@@ -5,15 +5,22 @@
         <element label="CE sponsor name" max_length="200" name="ce_sponsor_name" type="string"/>
         <element label="CE sponsor title" max_length="200" name="ce_sponsor_title" type="string"/>
         <element label="Name" max_length="200" name="name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Onsite end date" max_length="40" name="onsite_end_date" type="glide_date"/>
         <element label="Onsite start date" max_length="40" name="onsite_start_date" type="glide_date"/>
-        <element label="Opportunity" max_length="32" name="opportunity" reference="sales_opportunity" type="reference"/>
+        <element label="Opportunity" max_length="32" name="opportunity" reference="sales_opportunity" reference_qual="javascript:new accountOpportunityMatcherWorkshop().match()" type="reference" use_reference_qualifier="advanced"/>
         <element label="PLSC" max_length="32" name="plsc" reference="sys_user" type="reference"/>
         <element label="PLSM" max_length="32" name="plsm" reference="sys_user" type="reference"/>
         <element label="Readback date" max_length="40" name="readback_date" type="glide_date"/>
         <element choice="1" label="State" max_length="40" name="state" type="choice">
-            <choice/>
+            <choice>
+                <element label="Draft" sequence="0" value="Draft"/>
+                <element label="Planning" sequence="1" value="Planning"/>
+                <element label="In Progress" sequence="2" value="In Progress"/>
+                <element label="Complete" sequence="3" value="Complete"/>
+            </choice>
         </element>
+        <element label="Systems" max_length="4000" name="systems" reference="x_snc_cx_workshop_systems" reference_qual="teamSAMEASteam^active=true^EQ" reference_qual_condition="teamSAMEASteam^active=true^EQ" type="glide_list"/>
         <element label="Team" max_length="32" name="team" reference="x_snc_cx_workshop_team" type="reference"/>
         <element label="Workshop lead" max_length="32" name="workshop_lead" reference="sys_user" type="reference"/>
         <index name="index">

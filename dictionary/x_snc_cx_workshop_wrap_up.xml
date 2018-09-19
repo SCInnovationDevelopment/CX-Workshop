@@ -1,36 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Wrap Up" max_length="40" name="x_snc_cx_workshop_wrap_up" type="collection">
-        <element label="Actor" max_length="32" name="actor" reference="x_snc_cx_workshop_actor" type="reference"/>
         <element choice="1" label="Agent desktop search" max_length="40" name="agent_desktop_search" type="choice">
-            <choice/>
+            <choice>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+            </choice>
         </element>
         <element label="Call scripting used" max_length="40" name="call_scripting_used" type="boolean"/>
         <element choice="1" label="Case management process" max_length="40" name="case_management_process" type="choice">
-            <choice/>
+            <choice>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+            </choice>
         </element>
         <element label="Chat/Co-browse used" max_length="40" name="chat_co_browse_used" type="boolean"/>
         <element label="Collaboration tool used" max_length="40" name="collaboration_tool_used" type="boolean"/>
         <element label="CTI/Screenpop available" max_length="40" name="cti_available" type="boolean"/>
         <element choice="1" label="Customer service" max_length="40" name="customer_service" type="choice">
-            <choice/>
+            <choice>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+            </choice>
         </element>
         <element choice="1" label="Customer service organization" max_length="40" name="customer_service_organization" type="choice">
-            <choice/>
+            <choice>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+            </choice>
         </element>
         <element choice="1" label="Customer service strategy" max_length="40" name="customer_service_strategy" type="choice">
-            <choice/>
+            <choice>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+            </choice>
         </element>
         <element label="Duplication of data" max_length="40" name="duplication_of_data" type="boolean"/>
         <element label="Information readily available" max_length="40" name="information_readily_available" type="boolean"/>
+        <element label="Interaction" max_length="32" name="interaction" reference="x_snc_cx_workshop_interaction" type="reference"/>
         <element label="KB created" max_length="40" name="kb_created" type="boolean"/>
         <element label="KB used" max_length="40" name="kb_used" type="boolean"/>
         <element label="Manual call verification" max_length="40" name="manual_call_verification" type="boolean"/>
         <element label="Manual email sent" max_length="40" name="manual_email" type="boolean"/>
         <element label="Manual email internally sent" max_length="40" name="manual_email_internal" type="boolean"/>
         <element label="Missing information" max_length="40" name="missing_information" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element choice="1" label="Omni channel communication process" max_length="40" name="omni_channel" type="choice">
-            <choice/>
+            <choice>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+            </choice>
         </element>
         <element label="Paper documents used" max_length="40" name="paper_documents_used" type="boolean"/>
         <element label="Paper notepad used" max_length="40" name="paper_notepad_used" type="boolean"/>
@@ -39,15 +76,24 @@
         <element label="System integration used" max_length="40" name="system_integration_used" type="boolean"/>
         <element label="Team" max_length="32" name="team" reference="x_snc_cx_workshop_team" type="reference"/>
         <element choice="1" label="Technology infrastructure" max_length="40" name="technology_infrastructure" type="choice">
-            <choice/>
+            <choice>
+                <element label="1" sequence="1" value="1"/>
+                <element label="2" sequence="2" value="2"/>
+                <element label="3" sequence="3" value="3"/>
+                <element label="4" sequence="4" value="4"/>
+                <element label="5" sequence="5" value="5"/>
+            </choice>
         </element>
         <element label="Tribal knowledge used" max_length="40" name="tribal_knowledge_used" type="boolean"/>
         <element choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice/>
+            <choice>
+                <element label="Interaction" value="Interaction"/>
+                <element label="Team" value="Team"/>
+            </choice>
         </element>
         <element label="Upsell/Crosssell observed" max_length="40" name="up_cross_sell" type="boolean"/>
         <index name="index">
-            <element name="actor"/>
+            <element name="interaction"/>
         </index>
         <index name="index2">
             <element name="team"/>
