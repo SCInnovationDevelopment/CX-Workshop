@@ -12,34 +12,34 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Team Types</mobile_title>
+        <mobile_title>My Interactions</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_snc_cx_workshop_team_type</name>
-        <order>175</order>
+        <name>x_snc_cx_workshop_interaction</name>
+        <order>40</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>sys_created_by=javascript:gs.getUserName()</query>
         <report/>
-        <roles>x_snc_cx_workshop.user</roles>
+        <roles/>
         <survey/>
         <survey_overwrite>true</survey_overwrite>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>sam.dieck</sys_created_by>
-        <sys_created_on>2018-09-19 17:13:53</sys_created_on>
+        <sys_created_on>2018-09-20 16:00:11</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>08dcbb0713646b40649e34228144b097</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Team Types</sys_name>
+        <sys_id>a95534ef13a8ab40649e34228144b025</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Interactions</sys_name>
         <sys_overrides/>
         <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
-        <sys_update_name>sys_app_module_08dcbb0713646b40649e34228144b097</sys_update_name>
+        <sys_update_name>sys_app_module_a95534ef13a8ab40649e34228144b025</sys_update_name>
         <sys_updated_by>sam.dieck</sys_updated_by>
-        <sys_updated_on>2018-09-20 15:35:45</sys_updated_on>
+        <sys_updated_on>2018-09-20 16:00:11</sys_updated_on>
         <timeline_page/>
-        <title>Team Types</title>
+        <title>My Interactions</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>
