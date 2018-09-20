@@ -2,7 +2,6 @@
 <database>
     <element label="Actor" max_length="40" name="x_snc_cx_workshop_actor" type="collection">
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
-        <element label="Channels handled" max_length="4000" name="channels_handled" type="glide_list"/>
         <element label="3 common calls" max_length="1000" name="common_calls" type="string"/>
         <element choice="1" label="Company training length" max_length="40" name="company_training_length" type="choice">
             <choice>
@@ -34,7 +33,6 @@
         <element label="Stop time" max_length="40" name="stop_time" type="glide_date_time"/>
         <element label="Systems" max_length="4000" name="systems" reference="x_snc_cx_workshop_systems" reference_qual="teamSAMEASteam^active=true^EQ" reference_qual_condition="teamSAMEASteam^active=true^EQ" type="glide_list"/>
         <element label="Team" max_length="32" name="team" reference="x_snc_cx_workshop_team" type="reference"/>
-        <element label="Team name" max_length="200" name="team_name" type="string"/>
         <element choice="1" label="Tenure" max_length="40" name="tenure" type="choice">
             <choice>
                 <element label="Less than a year" sequence="0" value="Less than a year"/>

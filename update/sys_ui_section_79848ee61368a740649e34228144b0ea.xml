@@ -5,13 +5,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>2c95a41b13286b40649e34228144b0f9</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>4380c52b13e8ab40649e34228144b077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>name</element>
             <position>1</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>ac95a41b13286b40649e34228144b0f9</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>c380c52b13e8ab40649e34228144b077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>account</element>
             <position>2</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>2095a41b13286b40649e34228144b0fa</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>4780c52b13e8ab40649e34228144b077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>opportunity</element>
             <position>3</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>a095a41b13286b40649e34228144b0fa</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>c780c52b13e8ab40649e34228144b077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>team</element>
             <position>4</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>2495a41b13286b40649e34228144b0fa</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>4b80c52b13e8ab40649e34228144b077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>ce_sponsor_name</element>
             <position>5</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>a495a41b13286b40649e34228144b0fa</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>cb80c52b13e8ab40649e34228144b077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>ce_sponsor_title</element>
             <position>6</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>2895a41b13286b40649e34228144b0fa</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>4f80c52b13e8ab40649e34228144b077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>.split</element>
             <position>7</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>a895a41b13286b40649e34228144b0fa</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>cf80c52b13e8ab40649e34228144b077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>state</element>
             <position>8</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>2c95a41b13286b40649e34228144b0fa</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>4380c52b13e8ab40649e34228144b078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>onsite_start_date</element>
             <position>9</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>ac95a41b13286b40649e34228144b0fa</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>c380c52b13e8ab40649e34228144b078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>onsite_end_date</element>
             <position>10</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>2095a41b13286b40649e34228144b0fb</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>4780c52b13e8ab40649e34228144b078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>readback_date</element>
             <position>11</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>a095a41b13286b40649e34228144b0fb</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>c780c52b13e8ab40649e34228144b078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>workshop_lead</element>
             <position>12</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>2495a41b13286b40649e34228144b0fb</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>4b80c52b13e8ab40649e34228144b078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -187,13 +187,13 @@
             <element>plsm</element>
             <position>13</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>a495a41b13286b40649e34228144b0fb</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>cb80c52b13e8ab40649e34228144b078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -201,13 +201,13 @@
             <element>plsc</element>
             <position>14</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>2895a41b13286b40649e34228144b0fb</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>4f80c52b13e8ab40649e34228144b078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -215,13 +215,41 @@
             <element>systems</element>
             <position>15</position>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 20:11:56</sys_created_on>
-            <sys_id>a895a41b13286b40649e34228144b0fb</sys_id>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>cf80c52b13e8ab40649e34228144b078</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 20:11:56</sys_updated_on>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>4380c52b13e8ab40649e34228144b079</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>17</position>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-20 16:48:18</sys_created_on>
+            <sys_id>c380c52b13e8ab40649e34228144b079</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-20 16:48:18</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
