@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Cx Workshop M2m Interactions Questions" max_length="40" name="x_snc_cx_workshop_m2m_interactions_questions" type="collection">
+        <element label="Answer" max_length="1000" name="answer" type="string"/>
         <element label="Interaction" max_length="32" name="interaction" reference="x_snc_cx_workshop_interaction" type="reference"/>
         <element label="Question" max_length="32" name="question" reference="x_snc_cx_workshop_question" type="reference"/>
         <index name="index">

@@ -2,6 +2,7 @@
 <database>
     <element label="Cx Workshop M2m Questions Actors" max_length="40" name="x_snc_cx_workshop_m2m_questions_actors" type="collection">
         <element label="Actor" max_length="32" name="actor" reference="x_snc_cx_workshop_actor" type="reference"/>
+        <element label="Answer" max_length="1000" name="answer" type="string"/>
         <element label="Question" max_length="32" name="question" reference="x_snc_cx_workshop_question" type="reference"/>
         <index name="index">
             <element name="actor"/>
