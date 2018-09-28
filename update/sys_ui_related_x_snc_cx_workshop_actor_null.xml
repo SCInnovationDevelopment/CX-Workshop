@@ -9,11 +9,11 @@
             <related_list>x_snc_cx_workshop_m2m_questions_actors.actor</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 18:23:13</sys_created_on>
-            <sys_id>c0bc0c1b13a46b40649e34228144b0ab</sys_id>
+            <sys_created_on>2018-09-28 16:01:24</sys_created_on>
+            <sys_id>4282428a137c6780649e34228144b0f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 18:23:13</sys_updated_on>
+            <sys_updated_on>2018-09-28 16:01:24</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
             <filter/>
@@ -23,11 +23,25 @@
             <related_list>x_snc_cx_workshop_interaction.actor</related_list>
             <sys_class_name>sys_ui_related_list_entry</sys_class_name>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 18:23:13</sys_created_on>
-            <sys_id>c4bc0c1b13a46b40649e34228144b0ab</sys_id>
+            <sys_created_on>2018-09-28 16:01:24</sys_created_on>
+            <sys_id>8a82868a137c6780649e34228144b02a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 18:23:13</sys_updated_on>
+            <sys_updated_on>2018-09-28 16:01:24</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Actor - Default view" name="x_snc_cx_workshop_actor" related_list="NULL" sys_domain="global" view="Default view">0cbc0c1b13a46b40649e34228144b0aa</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>x_snc_cx_workshop_wrap_up.actor</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>sam.dieck</sys_created_by>
+            <sys_created_on>2018-09-28 16:01:24</sys_created_on>
+            <sys_id>8e82868a137c6780649e34228144b02a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sam.dieck</sys_updated_by>
+            <sys_updated_on>2018-09-28 16:01:24</sys_updated_on>
         </sys_ui_related_list_entry>
         <sys_ui_related_list action="INSERT_OR_UPDATE">
             <calculated_name>Actor - Default view</calculated_name>
@@ -38,7 +52,7 @@
             <related_list/>
             <sys_class_name>sys_ui_related_list</sys_class_name>
             <sys_created_by>sam.dieck</sys_created_by>
-            <sys_created_on>2018-09-19 18:23:13</sys_created_on>
+            <sys_created_on>2018-09-28 16:01:24</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_id>0cbc0c1b13a46b40649e34228144b0aa</sys_id>
@@ -50,7 +64,7 @@
             <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
             <sys_update_name>sys_ui_related_x_snc_cx_workshop_actor_null</sys_update_name>
             <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-19 18:23:13</sys_updated_on>
+            <sys_updated_on>2018-09-28 16:01:24</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

@@ -7,12 +7,25 @@
             <sys_created_on>2018-09-20 16:48:03</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_id>d770852b13e8ab40649e34228144b017</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_cx_workshop_customer_workshop" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">9770852b13e8ab40649e34228144b014</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">464d82a613a8a740649e34228144b0b1</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-09-28 17:26:03</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-09-28 17:26:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_id>fde55a0213fc6780649e34228144b01e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_snc_cx_workshop_customer_workshop" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">9770852b13e8ab40649e34228144b014</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">79848ee61368a740649e34228144b0ea</sys_ui_section>
-            <sys_updated_by>sam.dieck</sys_updated_by>
-            <sys_updated_on>2018-09-20 16:48:03</sys_updated_on>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_snc_cx_workshop_customer_workshop" sys_domain="global" view="Default view">197dc2a613a8a740649e34228144b05a</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-09-28 17:26:01</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_cx_workshop_customer_workshop</name>

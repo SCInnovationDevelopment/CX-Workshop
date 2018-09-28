@@ -20,32 +20,34 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Create Team</name>
+        <name>Finish Interaction</name>
         <onclick/>
         <order>100</order>
-        <script><![CDATA[var util = new CustomerExperienceUtil();
-util.createTeam(current);]]></script>
+        <script><![CDATA[current.stop_time.setValue(new GlideDateTime());
+current.update();
+
+action.setRedirectURL('/x_snc_cx_workshop_actor.do?sys_id='+ current.actor.sys_id);]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>sam.dieck</sys_created_by>
-        <sys_created_on>2018-09-18 21:36:32</sys_created_on>
+        <sys_created_on>2018-09-28 16:20:08</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
-        <sys_id>13adab7a13e02b40649e34228144b011</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_name>Create Team</sys_name>
+        <sys_id>7766460213bc6780649e34228144b03a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Finish Interaction</sys_name>
         <sys_overrides/>
         <sys_package display_value="CX Workshop" source="x_snc_cx_workshop">d4ed436d1364a340649e34228144b056</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="CX Workshop">d4ed436d1364a340649e34228144b056</sys_scope>
-        <sys_update_name>sys_ui_action_13adab7a13e02b40649e34228144b011</sys_update_name>
+        <sys_update_name>sys_ui_action_7766460213bc6780649e34228144b03a</sys_update_name>
         <sys_updated_by>sam.dieck</sys_updated_by>
-        <sys_updated_on>2018-09-28 18:42:41</sys_updated_on>
-        <table>x_snc_cx_workshop_customer_workshop</table>
+        <sys_updated_on>2018-09-28 16:21:09</sys_updated_on>
+        <table>x_snc_cx_workshop_interaction</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>true</ui16_compatible>
     </sys_ui_action>
