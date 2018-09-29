@@ -4,9 +4,6 @@
         <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Name" max_length="200" name="name" type="string"/>
         <element label="Team" max_length="32" name="team" reference="x_snc_cx_workshop_team" type="reference"/>
-        <element choice="1" label="Type" max_length="40" name="type" type="choice">
-            <choice/>
-        </element>
         <element label="Used for" max_length="40" name="used_for" type="string"/>
         <index name="index">
             <element name="team"/>
